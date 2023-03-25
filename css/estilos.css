@@ -1,10 +1,26 @@
 body {
-    color: black;
     text-align: center;
-    font-family: Arial;
+    color: darkgreen;<div id="cabecera">
+Hyperblog <span id="tagline">Tu blog maestro</span>
+</div>
+    font-family: fantasy;
     font-size: 16px;
     margin: 0;
-    padding: 0;
+}
+
+#cabecera {
+    background: rgb(39, 39, 116);
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.5);
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#cabecera #tagline {
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 
 #container {
@@ -16,9 +32,9 @@ body {
 }
 
 #container h1 {
-    font-size: 20p}
+    font-size: 20px;
+}
 
 #post {
-    background: white;
     padding: 1em;
 }
