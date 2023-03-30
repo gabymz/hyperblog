@@ -2,7 +2,7 @@ body {
     background: black;
     text-align: center;
     color: #2c2a2a;
-    font-family: fantasy;
+    font-family: Tahoma;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -43,5 +43,12 @@ body {
 #post {
     background: aliceblue;
     padding: 1em;
+}
+
+#footer {
+    background: cadetblue;
+    color: beige;
+    text-align: center;
+    padding: 0.5em;
 }
 
